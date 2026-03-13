@@ -22,8 +22,8 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
 
-# Use Gemini 2.0 Flash (fast, free tier friendly)
-MODEL_NAME = "gemini-2.5-flash"
+# Use Gemini 3.1
+MODEL_NAME = "gemini-3.1-pro-preview"
 
 
 def build_analysis_prompt(
