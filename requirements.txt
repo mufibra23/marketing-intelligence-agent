@@ -1,0 +1,7 @@
+google-cloud-bigquery
+google-generativeai
+pandas
+streamlit
+python-dotenv
+scipy
+db-dtypes
