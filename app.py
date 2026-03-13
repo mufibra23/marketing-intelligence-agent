@@ -247,7 +247,7 @@ with st.sidebar:
     st.markdown("##### 🏗️ Architecture")
     st.caption("**Data:** BigQuery GA4 Public Dataset")
     st.caption("**Detection:** Python + scipy (z-scores)")
-    st.caption("**AI Brain:** Google Gemini 2.5 Flash")
+    st.caption("**AI Brain:** Google Gemini 3.1 Pro")
     st.caption("**Frontend:** Streamlit + Plotly")
     st.markdown("---")
     st.caption("Built by mufibra23")
@@ -561,7 +561,7 @@ with st.expander("Browse raw data tables"):
 # ============================================================
 st.markdown(f"""
 <div class="footer-text">
-    Built with BigQuery · Gemini 2.5 Flash · Streamlit · Python<br>
+    Built with BigQuery · Gemini 3.1 Pro · Streamlit · Python<br>
     Built by mufibra23 · Google Cloud AI Agent Project<br>
     Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}
 </div>
