@@ -1,7 +1,9 @@
-google-cloud-bigquery
-google-generativeai
-pandas
-streamlit
-python-dotenv
+google-cloud-bigquery==3.40.1
+google-generativeai==0.8.6
+pandas==3.0.1
+streamlit>=1.30.0
+python-dotenv==1.2.2
 scipy
 db-dtypes
+plotly
+protobuf>=4.25.0
